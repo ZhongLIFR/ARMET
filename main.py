@@ -221,7 +221,7 @@ def run_hp_selection(
     ##----important paramter 0----##
     ##the learning rate, weight decay hyperparameter are given here
     
-    ##串联模型如何优化？https://blog.csdn.net/qq_27292549/article/details/96860093
+    ##https://blog.csdn.net/qq_27292549/article/details/96860093
     optimizer_se = optim.SGD(se_model.parameters(), lr=lr, weight_decay=weight_decay) 
     optimizer_st = optim.SGD(st_model.parameters(), lr=lr, weight_decay=weight_decay)   
     optimizer_dc = optim.SGD(domain_classifier.parameters(), lr=lr, weight_decay=weight_decay)
@@ -320,7 +320,7 @@ for my_source_name in ["BGL", "SPIRIT", "HDFS", "THUNDERBIRD"]:
                     parser.add_argument('--target_data', default= my_target_data) 
                     parser.add_argument('--test_data', default= my_test_data) 
 
-                    parser.add_argument('--batch', type=int, default= my_batch_size, ##if we set this hp to other values, we may have problems:这是随机抽样的样本数量，不能大于总体样本数量
+                    parser.add_argument('--batch', type=int, default= my_batch_size,
                                         help='batch size (default: 64)')
                     parser.add_argument('--data_seed', type=int, default=421,
                                         help='seed to split the inlier set into train and test (default: 1213)')
