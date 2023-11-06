@@ -1,6 +1,6 @@
 # ARMET
 
-This repository contains the code for the manuscript "Cross-Domain Graph Level Anomaly Detection", which has been submitted to AAAI 2024.
+This repository contains the code for the manuscript "Cross-Domain Graph Level Anomaly Detection", which has been submitted to ICDE 2024.
 
 Readers can follow these steps to use our code:
 
