@@ -78,8 +78,8 @@ for DataName in ["BGL","THUNDERBIRD","HDFS","SPIRIT"]:
 ##--------------------------------------------          
         
 def run_test(
-    source_data = "Letter-low", ##AUC: 0.88
-    target_data = "Letter-high", ##AUC: 0.66
+    source_data = "Letter-low", 
+    target_data = "Letter-high",
     test_data = "Letter-high", 
     data_seed=1213, 
     epochs=100, 
@@ -168,8 +168,8 @@ def run_test(
 
 
 def run_hp_selection(
-    source_data = "Letter-low", ##AUC: 0.88
-    target_data = "Letter-high", ##AUC: 0.66
+    source_data = "Letter-low",
+    target_data = "Letter-high", 
     test_data = "Letter-high", 
     data_seed=1213, 
     epochs=100, 
@@ -270,7 +270,7 @@ from pathlib import Path
 for my_source_name in ["BGL", "SPIRIT", "HDFS", "THUNDERBIRD"]:
     for my_target_name in ["BGL", "SPIRIT", "HDFS", "THUNDERBIRD"]:            
         for my_is_source in ['False']:
-            for run in ['1','2','3','4','5','6','7','8','9','10']:
+            for run in ['1']:
                 if my_source_name == my_target_name:
                     pass
                 else:
