@@ -1,6 +1,6 @@
 # ARMET
 
-This repository contains the code for the manuscript "Cross-Domain Graph Level Anomaly Detection", which has been accpeted by TKDE for publication. The code will be updated soon to our newest version.
+This repository contains the code for the manuscript "Cross-Domain Graph Level Anomaly Detection", which has been accpeted by TKDE for publication. The code will be updated soon.
 
 Readers can follow these steps to use our code:
 
