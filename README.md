@@ -2,7 +2,7 @@
 
 [![Journal](https://img.shields.io/badge/Journal-TKDE%202024-blue.svg)](https://doi.org/10.1109/TKDE.2024.3462442)
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FTKDE.2024.3462442-b31b1b.svg)](https://doi.org/10.1109/TKDE.2024.3462442)
-[![Dataset](https://zenodo.org/badge/DOI/10.5281/zenodo.8246213.svg)](https://doi.org/10.5281/zenodo.8246213)
+[![Dataset](https://img.shields.io/badge/Dataset-Zenodo-1682d4.svg)](https://doi.org/10.5281/zenodo.8246213)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![Python](https://img.shields.io/badge/Python-environment.yml-blue.svg)](https://www.python.org/)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=ZhongLIFR%2FARMET&countColor=%23263759&style=flat)](https://visitorbadge.io/status?path=ZhongLIFR%2FARMET)
